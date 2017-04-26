@@ -4,3 +4,10 @@ server:
   port: 8000
 message:
   greeting: Hello from the wfengine!
+  
+  spring:
+  application:
+    name: wfengine
+    
+  profiles:
+   active: default
