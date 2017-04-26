@@ -1,5 +1,5 @@
 configuration:  
-  projectName: wfengine
+  projectName: workflow-ms
 server:
   port: 8000
 message:
@@ -7,7 +7,7 @@ message:
   
 spring:  
   application:
-    name: wfengine
+    name: workflow-ms
     
   profiles:
    active: default
