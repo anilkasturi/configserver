@@ -1,6 +1,0 @@
-configuration:  
-  projectName: wfengine
-server:
-  port: 8000
-message:
-  greeting: Hello from the wfengine!
