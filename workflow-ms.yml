@@ -8,9 +8,7 @@ message:
 spring:  
   application:
     name: workflow-ms
-    
   profiles:
    active: default
-   
   logging:
     file: ./logs/WFEngine-logging.log
