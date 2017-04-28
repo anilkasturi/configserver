@@ -7,7 +7,7 @@ message:
   
 spring:  
   application:
-       name: workflow-ms
+         name: workflow-ms
   profiles:
     active: default
   logging:
