@@ -7,8 +7,8 @@ message:
   
 spring:  
   application:
-    name: workflow-ms
+       name: workflow-ms
   profiles:
-   active: default
+    active: default
   logging:
-    file: ./logs/WFEngine-logging.log
+     file: logs/WFEngine-logging.log
