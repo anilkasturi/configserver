@@ -1,1 +1,1 @@
-
+scheduler.redis.scheduletime=0 0/3 * 1/1 * ?
