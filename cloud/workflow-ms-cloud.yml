@@ -1,5 +1,10 @@
 configuration: 
   projectName: workflow-ms
+eureka: 
+  client: 
+    service-url: 
+      defaultZone: "http://serviceregistry.apps.wwtlabs.net/eureka"
+      register-with-eureka: false
 message: 
   greeting: "Hello from the wfengine!"
 server: 
