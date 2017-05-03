@@ -1,17 +1,16 @@
-configuration:  
+configuration: 
   projectName: workflow-ms
-server:
+message: 
+  greeting: "Hello from the wfengine!"
+server: 
   port: 8000
-message:
-  greeting: Hello from the wfengine!
-  
-spring:  
-  application:
-         name: workflow-ms
-  profiles:
-       active: cloud
-  cloud:
-    config:
-      uri: http://configservice.apps.wwtlabs.net
-  logging:
-     file: logs/WFEngine-logging.log
+spring: 
+  application: 
+    name: workflow-ms
+  cloud: 
+    config: 
+      uri: "http://configservice.apps.wwtlabs.net"
+  logging: 
+    file: logs/WFEngine-logging.log
+  profiles: 
+    active: cloud
