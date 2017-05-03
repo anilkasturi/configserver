@@ -4,3 +4,5 @@ server:
   port: 8086
 message:
   greeting: Hello from the wfengine!
+  
+scheduler.redis.scheduletime=0 0/3 * 1/1 * ?
