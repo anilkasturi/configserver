@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: workflow-ms
+    
+  profiles:
+    active: default
+    
+  cloud:
+    config:
+      uri: http://localhost:8888
+      
+flyway:
+  baseline-on-migrate: true
+  
+eureka:
+  client:
+    service-url:
+      defaultZone: http://serviceregistry.apps.wwtlabs.net/eureka
+      register-with-eureka: false
+      
+  instance:
+    prefer-ip-address: true
