@@ -1,6 +1,6 @@
 spring:
   application:
-    name: workflow-ms
+    name: workflow-ms\n
     
   profiles:
     active: default
