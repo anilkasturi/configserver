@@ -1,0 +1,42 @@
+
+#zuul:
+#  ribbon-isolation-strategy: thread
+
+
+spring:
+  application:
+    name: edgeservice
+  cloud:
+    config:
+      uri: http://localhost:8888
+      #uri: http://configservice.apps.wwtlabs.net
+  mvc:
+    dispatch-options-request: true
+#        http://configservice.apps.wwtlabs.net
+
+server:
+  port: 8000
+  context-path: /edge
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+      #defaultZone: http://serviceregistry.apps.wwtlabs.net/eureka
+#    fetch-registry: true
+#    initial-instance-info-replication-interval-seconds: -1
+#    instance-info-replication-interval-seconds: -1
+    
+#      http://serviceregistry.apps.wwtlabs.net/eureka   
+  
+    
+
+security:
+  oauth2:
+    client:
+      client-id: wfeedgeservicegateway
+      client-secret: password
+      access-token-uri: https://uaa.apps.wwtlabs.net/oauth/token
+      user-authorization-uri: https://uaa.apps.wwtlabs.net/oauth/authorize
+    resource:
+      token-info-uri: https://uaa.apps.wwtlabs.net/check_token
+      user-info-uri: https://uaa.apps.wwtlabs.net/userinfo
