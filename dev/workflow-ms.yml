@@ -1,7 +1,7 @@
 --- 
 spring: 
   application: 
-    name: workflow-ms
+    name: wfengine
   cloud: 
     config: 
       uri: ~
