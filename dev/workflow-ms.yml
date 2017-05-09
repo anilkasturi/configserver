@@ -34,4 +34,4 @@ spring:
   logging: 
     file: logs/WFEngine-logging.log
   profiles: 
-    active: default
+    active: dev
