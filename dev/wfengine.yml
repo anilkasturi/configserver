@@ -1,4 +1,10 @@
 --- 
+configuration: 
+  projectName: wfengine
+message: 
+  greeting: "Hello from the wfengine!"
+server: 
+  port: 8000
 spring: 
   application: 
     name: wfengine
@@ -21,17 +27,3 @@ spring:
     host: "10.100.1.79"
     password: guest
     port: 6379
----
-configuration: 
-  projectName: workflow-ms
-message: 
-  greeting: "Hello from the wfengine!"
-server: 
-  port: 8000
-spring: 
-  application: 
-    name: workflow-ms
-  logging: 
-    file: logs/WFEngine-logging.log
-  profiles: 
-    active: dev
