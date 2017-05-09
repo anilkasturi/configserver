@@ -10,7 +10,7 @@ spring:
     name: wfengine
   cloud: 
     config: 
-      uri: ~
+      uri: "http://localhost:8888"
   datasource: 
     driver-class-name: com.mysql.jdbc.Driver
     password: root
