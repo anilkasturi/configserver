@@ -8,4 +8,4 @@ spring:
   application: 
     name: wfengine
   logging: 
-    file: logs/WFEngine-logging.log
+    file: logs/WFEngineDev-logging.log
