@@ -2,12 +2,11 @@
 configuration: 
   projectName: wfengine
 message: 
-  greeting: "Hello from the dev environment!"
+  greeting: "Hello from the wfengine dev!"
 server: 
   port: 8000
 spring: 
   application: 
     name: wfengine
-  cloud: 
-    config: 
-      uri: "http://localhost:8888"
+  logging: 
+    file: logs/WFEngine-logging.log
