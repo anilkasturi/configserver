@@ -1,9 +1,9 @@
 spring:
   application:
-    name: workflow-ms
+    name: wfengine
     
   profiles:
-    active: default
+    active: dev
     
   cloud:
     config:
