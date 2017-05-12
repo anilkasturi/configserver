@@ -1,11 +1,12 @@
+--- 
 configuration: 
   projectName: wfengine
+logging: 
+  file: logs/WFEngineDev-logging.log
 message: 
   greeting: "Hello from the wfengine dev!"
 server: 
   port: 8000
 spring: 
-  application: 
-    name: wfengine
-  logging: 
-    file: logs/WFEngineDev-logging.log
+  profiles: 
+    active: dev
