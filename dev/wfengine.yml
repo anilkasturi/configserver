@@ -11,19 +11,3 @@ spring:
   cloud: 
     config: 
       uri: "http://localhost:8888"
-  datasource: 
-    driver-class-name: com.mysql.jdbc.Driver
-    password: root
-    url: "jdbc:mysql://10.100.1.79:3306/wfengine?autoReconnect=true&useSSL=false"
-    username: root
-  profiles: 
-    active: dev
-  rabbitmq: 
-    host: "10.100.1.79"
-    password: guest
-    port: 15672
-    username: guest
-  redis: 
-    host: "10.100.1.79"
-    password: guest
-    port: 6379
