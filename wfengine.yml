@@ -1,12 +1,12 @@
 --- 
 configuration: 
   projectName: wfengine
+logging: 
+  file: logs/WFEngineDev-logging.log
 message: 
   greeting: "Hello from the wfengine default!"
 server: 
   port: 8000
 spring: 
-  application: 
-    name: wfengine
-  logging: 
-    file: logs/WFEngine-logging.log
+  profiles: 
+    active: default
