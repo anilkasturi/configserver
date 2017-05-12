@@ -2,7 +2,7 @@
 configuration: 
   projectName: wfengine
 message: 
-  greeting: "Hello from the wfengine!"
+  greeting: "Hello from the dev environment!"
 server: 
   port: 8000
 spring: 
