@@ -1,21 +1,10 @@
 configuration: 
-  projectName: workflow-ms
-eureka: 
-  client: 
-    service-url: 
-      defaultZone: "http://serviceregistry.apps.wwtlabs.net/eureka"
-      register-with-eureka: false
+  projectName: wfengine
+logging: 
+  file: logs/WFEngineCloud-logging.log
 message: 
-  greeting: "Hello from the wfengine!"
+  greeting: "Hello from the wfengine cloud!"
 server: 
   port: 8000
 spring: 
-  application: 
-    name: workflow-ms
-  cloud: 
-    config: 
-      uri: "http://configservice.apps.wwtlabs.net"
-  logging: 
-    file: logs/WFEngine-logging.log
   profiles: cloud
-
