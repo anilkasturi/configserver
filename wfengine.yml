@@ -4,7 +4,7 @@ configuration:
 logging: 
   file: logs/WFEngine-logging.log
 message: 
-  greeting: "Hello from the wfengine default!"
+  greeting: "Hello from the wfengine default env!"
 server: 
   port: 8000
 spring: 
