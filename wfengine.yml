@@ -8,5 +8,4 @@ message:
 server: 
   port: 8000
 spring: 
-  profiles: 
-    active: default
+  profiles: default
