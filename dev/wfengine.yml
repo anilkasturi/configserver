@@ -1,9 +1,10 @@
-configuration:  
+configuration: 
   projectName: wfengine
-server:  
+logging: 
+  file: logs/WFEngineDev-logging.log
+message: 
+  greeting: "Hello from the wfengine dev!"
+server: 
   port: 8000
-message:  
-  greeting: Hello from the configuration wfengine dev profile
-  
-spring:
+spring: 
   profiles: dev
