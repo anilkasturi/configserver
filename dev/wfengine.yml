@@ -1,7 +1,7 @@
 configuration: 
   projectName: wfengine
 logging: 
-  file: logs/WFEngineDev-logging.log
+  file: dev/WFEngineDev-logging.log
 message: 
   greeting: "Hello from the wfengine dev!"
 server: 
