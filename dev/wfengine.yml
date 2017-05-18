@@ -6,5 +6,6 @@ message:
   greeting: "Hello from the wfengine dev!"
 server: 
   port: 8000
-spring: 
-  profiles: dev
+spring:
+  profiles:
+    active: dev
